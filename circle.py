@@ -11,9 +11,9 @@ r = float(input())
 ob = circle()
 c = ob.findcircumference(r)
 a = ob.findAreaofCircle(r)
-d = c + a
 
-print("\n Area of a Circumference =  {:.2f}".format(d))
+
+print("\n Area of a Circumference =  {:.2f}".format(c))
 print(" Area of a Circle =  {:.2f}".format(a))
 
 

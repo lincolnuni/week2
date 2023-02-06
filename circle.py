@@ -1,13 +1,19 @@
 class circle:
-    def findAreaofCircle(self, radius):
+    def findcircumference(self, radius):
         return 2 * 3.14159 * radius
+        
+    def  findAreaofCircle(self, radius):
+        return  3.14159 * radius**2
+
 print("Enter the Radius = ", end= "")
 
 r = float(input())
 ob = circle()
-c = ob.findAreaofCircle(r)
+c = ob.findcircumference(r)
+a = ob.findAreaofCircle(r)
+d = c + a
 
-# class cirncumference:
-    # def Fincircumference(self, radius):
-print("\n Area of a Circle =  {:.2f}".format(c))
+print("\n Area of a Circumference =  {:.2f}".format(d))
+print(" Area of a Circle =  {:.2f}".format(a))
+
 
